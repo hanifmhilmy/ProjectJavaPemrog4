@@ -25,4 +25,15 @@ public class Cat extends Pet {
     {
         System.out.println("Your "+ this.getName() + " is cat, and can eat!");
     }
+    
+    public String setName(String name)
+    {
+        Name = name;
+        return Name;
+    }
+    
+    public String getName()
+    {
+        return Name;
+    }
 }

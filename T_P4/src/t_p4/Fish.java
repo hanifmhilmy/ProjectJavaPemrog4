@@ -31,4 +31,15 @@ public class Fish extends Pet{
     {
         System.out.println("Your "+ this.getName() + " is fish, and can eat!");
     }
+    
+    public String setName(String name)
+    {
+        Name = name;
+        return Name;
+    }
+    
+    public String getName()
+    {
+        return Name;
+    }
 }
